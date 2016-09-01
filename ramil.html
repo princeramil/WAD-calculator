@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>MY CALCULATOR</title>
+
+		<link rel="stylesheet" type="text/css" href="wad.css">
+
+<script>
+	function sison(val)
+{
+		document.getElementById("ram").value=val;
+	}
+		function v(val)
+	{
+		document.getElementById("ram").value+=val;
+	}
+		function k() 
+	{ 
+try 
+	{ 
+	  sison(eval(document.getElementById("ram").value)) 
+	} 
+
+catch(k) 
+	{
+	  sison('Error') 
+	} 
+}
+</script>	
+
+	
+	
+
+</head>
+<body background="qwe.jpg">
+
+
+	<div class="five">My Calculator ! </div>
+
+ <div id="calcu">
+<div class="ram">
+	<p> SAMSUNG CALCULATOR 25s </p> </div>
+ 		<div class="buttons">
+ 			 <input type="text"  id="ram" disabled></div>
+ 			
+ 		<br>
+ 		
+ 		<button type="submit" value="on/off" class="power" onclick='sison("")'>on/off</button>
+ 			<button type="submit" value="clear" class="three" onclick='sison("")'>CLEAR</button>
+ 				<button type="submit" value="delete" class="four" onclick='sison("")'>DEL</button>
+ 			<br>
+ 					<button class="one" type="submit" value="1" onclick='v("1")'>1</button>
+ 						<button class="one" type="submit" value="2" onclick='v("2")'>2</button>
+ 							<button class="one" type="submit" value="3" onclick='v("3")'>3</button>
+ 								<button class="two" type="submit" value="+" onclick='v("+")'>+</button>
+ 			<br>
+ 							<button class="one" type="submit" value="4" onclick='v("4")'>4</button>
+ 						<button class="one" type="submit" value="5" onclick='v("5")'>5</button>
+ 					<button class="one" type="submit" value="6" onclick='v("6")'>6</button>
+ 				<button class="two" type="submit" value="-" onclick='v("-")'>-</button>
+ 			
+ 			<br>
+ 		
+ 			<button class="one" type="submit" value="7" onclick='v("7")'>7</button>
+ 				<button type="submit" class="one" value="8" onclick='v("8")'>8</button>
+ 					<button type="submit" class="one" value="9" onclick='v("9")'>9</button>
+ 						<button type="submit" class="two" value="/" onclick='v("/")'>/</button>
+ 			<br>
+ 					<button type="submit" class="one" value="0" onclick='v("0")'>0</button>
+ 					<button type="submit" class="one" value="." onclick='v(".")'>.</button>
+ 				<button class="two" type="submit" value="=" onclick='k()'>=</button>
+ 			<button class="two" type="submit" value="*" onclick='v("*")'>*</button>
+ 			<br>
+ 		</div>	
+
+
+
+
+
+
+ 	</div>
+
+</body>
+</html>

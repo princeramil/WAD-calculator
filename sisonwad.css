@@ -1,0 +1,132 @@
+
+#calcu{
+
+	border-radius: 30px;
+	border: 5px solid black;
+ 	margin: auto;
+	background-color: grey;
+	width: 298px;
+	height: 520px;
+	margin-top: 70px;
+
+	
+}
+.five{
+	border-radius: 50px;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: monotype corsiva;
+	text-align: center;
+	border: 5px solid red;
+	width: 40%;
+	margin: auto;
+}
+
+.one{
+	
+	padding-left: 2px;
+	font-size: 20px;
+	font-family: arial black;
+	margin: 3px;
+ 	background-position: center;
+	border-spacing: 1em;
+	border-radius: 20px;
+	width: 65px;
+	height: 60px;
+	background-color: #00FFFF;
+
+
+}
+.two{
+	
+	font-size: 20px;
+	font-family: arial black;
+	margin: 3px;
+ 	background-position: center;
+	border-spacing: 2em;
+	border-radius: 15px;
+	width: 65px;
+	height: 60px;
+	background-color: #FFE4C4;
+
+}
+.three{
+	
+	font-size: 20px;
+	font-family: arial black;
+	margin: 5px;
+ 	background-position: center;
+	border-spacing: 2em;
+	border-radius: 15px;
+	width: 92px;
+	height: 50px;
+	background-color:#7FFF00;
+
+}
+.four{
+	
+	font-size: 20px;
+	font-family: arial black;
+	margin: 5px;
+ 	background-position: center;
+	border-spacing: 2em;
+	border-radius: 15px;
+	width: 88px;
+	height: 50px;
+	background-color:  #7FFF00 ;
+
+}
+.buttons input {
+
+	color:  #A00000   ;
+	text-align: right;
+	font-family: Berlin Sans FB;
+	font-size: 40pt;
+	height: 70px;
+	width: 282px;
+	background-color: white;
+	border-radius: 10px;
+	margin: 5px;
+	 
+
+}
+.power{
+	
+	font-size: 20px;
+	font-family: arial black;
+	margin: 5px;
+ 	background-position: center;
+	border-spacing: 2em;
+	border-radius: 15px;
+	width: 80px;
+	height: 70px;
+	background-color:#DC143C;
+
+}
+.ram{
+
+	text-align: center;
+	font-family: Broadway;
+	font-size: 13pt;
+
+}
+.one:hover{
+	
+	background: yellow;
+}
+.two:hover{
+	background: yellow;
+}
+.four:hover{
+	background: yellow;
+}
+.three:hover{
+	background:yellow;
+}
+.five:hover{
+	background: yellow;
+}
+.power:hover{
+
+	background: yellow;
+}
